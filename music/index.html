@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY - Your Favourite Music Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="logo.png" style="width:200px" alt="melomix"></a>
+        </div>
+        <div class="navbar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Lite Songs Playlist</h1>
+                <div class="songitem">
+                    <img  alt="1">
+                    <span class="songname">baarishein</span>
+                    <span class="songlistplay"><span class="timestamp"> 03:27 <i id="0" class="fa-sharp songitemplay fa-regular fa-circle-play"></i><span></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname">kho gye</span>
+                    <span class="songlistplay"><span class="timestamp"> 03:27 <i id="1"class="fa-sharp songitemplay fa-regular fa-circle-play"></i><span></span>
+                </div>
+
+                <div class="songitem">
+                    <img  alt="1">
+                    <span class="songname">tumse mohobbat</span>
+                    <span class="songlistplay"><span class="timestamp"> 03:27 <i id="2"class="fa-sharp songitemplay fa-regular fa-circle-play"></i><span></span>
+                </div>
+
+                <div class="songitem">
+                    <img  alt="1">
+                    <span class="songname">phir milonge na</span>
+                    <span class="songlistplay"><span class="timestamp"> 03:27 <i id="3"class="fa-sharp songitemplay fa-regular fa-circle-play"></i><span></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname">ankhiyan</span>
+                    <span class="songlistplay"><span class="timestamp"> 03:27 <i id="4"class="fa-sharp songitemplay fa-regular fa-circle-play"></i><span></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname">aankhon se batana</span>
+                    <span class="songlistplay"><span class="timestamp"> 03:27 <i id="5"class="fa-sharp songitemplay fa-regular fa-circle-play"></i><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+
+    </div>
+    
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-backward-fast" id="previous"></i>
+            <i class="fa-sharp fa-3x fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-fast" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="gif.gif" width="42px" alt="" id="gif"><span id="mastersongname">baarishein</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/21166e37ee.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
